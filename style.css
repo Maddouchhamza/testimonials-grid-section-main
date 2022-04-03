@@ -92,3 +92,48 @@ span{
     font-size: 13px;
     font-weight: 500;
 }
+
+@media screen and (max-width:425px){
+    body{
+        height: 290vh;
+    }
+    section{
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+        padding-left: 1.9rem;
+        padding-right: 1.9rem;
+    }
+    
+    .container{
+        /* margin-left: 5px;
+        margin-right: 5px; */
+        display: grid;
+        grid-template-columns: 310px;
+        grid-template-rows: 420px 230px 220px 400px 430px;
+        gap: 20px;
+    }
+    .description{
+        padding-right: 1px;
+    }
+    .daniel{
+        background-position: 11.5rem 0rem;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .jonathan{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .kira{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .jeanette{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .partick{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }  
+}
